@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="Stylesheet" href="style.css">
+    <title>Portfolio</title>    
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">Sumbul<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+       </nav>
+
+    <header id="home">
+        <div class="section__container header__container">
+            <div class="header__content">
+                <h2> Hi, My name is</h2>
+                <h1>Sumbul</h1>
+                <h3>and I am a</h3>
+                <p>
+                <span id="element"></span>
+            </p>
+                <div class="header__btns">
+                    <a href="file:///C:/Users/DELL/Documents/Sumbul%20Nadeem.pdf">  <button  class="btn ">Resume</button></a>
+                  
+                    <button class="btn" onclick="location.href='#contact'" >Contact Me</button>
+                </div>
+            </div>
+           <div class="header__image">
+  <img src="Portfolio.jpeg" alt="My Photo" />
+</div>
+
+        </div>
+    </header>
+
+    <section  class="about" id="about">
+        <div class="section__container about__container">
+        <div class="about__image">
+            <img src="my.png" alt="about"/>
+        </div>
+        <div class="about__content">
+            <h2 class="section__header">About Me</h2>
+            <p class="section__subheader">
+                A bit about me!
+            </p>
+            <p class="about__description">
+                I have completed my Bachelor's degree in BCA in 2025. I have a strong interest in coding and frontend development, and I enjoy learning new technologies. Currently, I am focused on improving my skills in React and modern frontend tools to build responsive and user-friendly web applications.
+            </p>
+            <div class="about__grid">
+                <h5>
+                    <span><i class="fa-solid fa-user"></i></span>Name
+                </h5>
+                <Span>:</Span>
+                <p>Sumbul Nadeem</p>
+                <h5>
+                    <span><i class="fa-solid fa-phone"></i></span>Mobile No
+                </h5>
+                <Span>:</Span>
+                <p>+91 8273677207</p>
+                <h5>
+                    <span><i class="fa-solid fa-envelope"></i></span>Email
+                </h5>
+                <Span>:</Span>
+                <p>sumbuln13@gmail.com</p>
+            </div>
+            <h4>My Interests</h4>
+            <div class="about__flex">
+                <div>
+                    <span><i class="fa-solid fa-person-walking-luggage"></i></span>Travel
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-headphones-simple"></i></span>Music
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-utensils"></i></span>Cooking
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="section__container skills__container">
+            <p class="section__subheader">My Specialty</p>
+            <h2 class="section__header">My Skills</h2>
+            <div class="skills__grid">
+                <div class="skills__card">
+                    <div>
+                        <h4>HTML</h4>
+                        <h4>100%</h4>
+                    </div>
+                    <div class="skills__progress" style="--progress: 100%"></div>
+                </div>
+                <div class="skills__card">
+                    <div>
+                        <h4>CSS</h4>
+                        <h4>70%</h4>
+                    </div>
+                    <div class="skills__progress" style="--progress: 70%"></div>
+                </div>
+                <div class="skills__card">
+                    <div>
+                        <h4>JavaScript</h4>
+                        <h4>70%</h4>
+                    </div>
+                    <div class="skills__progress" style="--progress: 70%"></div>
+                </div>
+                <div class="skills__card">
+                    <div>
+                        <h4>React</h4>
+                        <h4>80%</h4>
+                    </div>
+                    <div class="skills__progress" style="--progress: 80%"></div>
+                </div>
+                <div class="skills__card">
+                    <div>
+                        <h4>Tailwind</h4>
+                        <h4>90%</h4>
+                    </div>
+                    <div class="skills__progress" style="--progress: 90%"></div>
+                </div>
+                <div class="skills__card">
+                    <div>
+                        <h4>Git</h4>
+                        <h4>80%</h4>
+                    </div>
+                    <div class="skills__progress" style="--progress: 80%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section__container projects__container">
+        <h2 class="section__header">My Projects</h2>
+        <div class="projects__grid">
+           <div class="project__card firstpro">
+            <img src="Yogaholic.png" alt="Yoga-project"/>
+            <div class="project__card__details">
+                <div>
+                    <h4>Yogaholic <a href="https://yogaholics.netlify.app/"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h4>
+                    <p>Yogaholic is a yoga website designed for mindful living. Simple, calming, and beginner-friendly — your daily peace companion.</p>
+                </div>
+                
+            </div>
+           </div>
+           <div class="project__card">
+            <img src="Penguin-project.png" alt="Penguin-project"/>
+            <div class="project__card__details">
+                <div>
+                    <h4>Happy Penguin <a href="https://penguin-mini-project.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></h4>
+                    <p>Happy Penguin is a fun and animated CSS project that brings a penguin to life using only HTML and CSS.</p>
+                </div>
+            </div>
+           </div>
+             
+        </div>
+    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div  class="section__container contact__container">
+        <h2 class="section__header">Contact me</h2>
+        <p class="section__subheader">I am open for any suggestion or just to have a Chat.</p>    
+        <form action="https://sheetdb.io/api/v1/d703weml7v8cc" method="POST" class="contact__form" id="contact-data">
+            <div class="input__row">
+                <input type="text" placeholder="First Name" name="First_Name" id="uname" required/>
+                <input type="text" placeholder="Last Name" name="Last_Name"/>
+            </div>
+            <input type="text" placeholder="Email" name="Email" required/> 
+            <input type="text" placeholder="Message" name="Message" required/>
+            <button  type="submit" class="btn ">Submit</button>
+            
+        </form>
+    </div>
+    </section>
+    <footer>
+        <div class="section__container footer__container">
+            <h4>Sumbul Nadeem</h4>
+            <ul class="footer__socials">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Sumbul-Nadeem"><i class="fa-brands fa-github"></i></a>
+            </ul>
+        </div>
+        <div class="footer__bar">
+            Copyright ©2024 All rights reserved | This Portfolio is made with &#x2764; & Designed by Sumbul.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+    strings: ['Web Developer','Front End Developer','React Developer'],
+    typeSpeed: 55,
+    loop: true
+  });
+    </script>
+</body>
+</html>
